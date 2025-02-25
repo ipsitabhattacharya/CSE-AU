@@ -58,6 +58,55 @@ int main()
 OUTPUT:
 100
 --------------------------------
+//ASSIGNMENT 29:
+WRITE A C PROGRAM TO CHECK WHETHER A NUMBER IS PRIME OR NOT.
+SOURCE CODE:
+#include<stdio.h>
+#include<math.h>
+int main()
+{
+	int num,i,c;
+	printf("Enter a number");
+	scanf("%d",&num);
+	
+	
+
+	for(i=1;i<=sqrt(num);i=i+1)
+	{
+		printf("i=%d\n",i);
+		
+	if(num%i==0)
+	
+	{
+		c=c+1;
+		
+	}
+	}
+	if(c==0)
+	{
+	
+		printf("PRIME");
+	}
+	else
+	{
+		printf("not prime");
+	}
+	return 0;
+}
+Output:
+Enter a number45
+i=1
+i=2
+i=3
+i=4
+i=5
+i=6
+not prime
+--------------------------------
+//ASSIGNMENT 30:
+WRITE A C PROGRAM TO FIND THE FACTORIAL OF A NUMBER
+
+
 
 
 
